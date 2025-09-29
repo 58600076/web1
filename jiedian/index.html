@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报社节点 | 白谣节点高性能模板演示</title>
+    <meta name="description" content="基于白谣节点理念开发的高性能、多栏目报社型静态HTML模板。">
+   
+    <link href="css/jiedian.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+ <header id="news-header">
+    
+    <div class="container top-bar">
+        <div class="date-info">星期一, 2025年9月29日</div>
+        <div class="top-links">
+            <a href="/login/">登录/注册</a>
+            <a href="/search/">搜索</a>
+        </div>
+    </div>
+    
+    <div class="container logo-masthead">
+        <a href="/" class="site-logo">《白谣节点》</a>
+        <div class="slogan-ad-space">
+            <p>【关注性能】高性能 Web 架构与静态模板指南</p>
+        </div>
+    </div>
+    
+    <nav id="main-navigation">
+        <div class="container nav-content">
+            <ul>
+                <li><a href="/node/theory/">架构理论</a></li>
+                <li><a href="/node/performance/">性能优化</a></li>
+                <li><a href="/node/practice/">前端实践</a></li>
+                <li><a href="/store/">模板商店 (产品)</a></li> 
+                <li class="cta-item"><a href="#subscribe-cta">免费订阅</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main class="container">
+
+        <section class="hero-story article-card">
+            <img 
+    src="../jiedian/img/img-fork-08.png" 
+    alt="头条大图" 
+    width="1200" height="200" 
+    style="width: 100%; height: auto; display: block; margin-bottom: 15px;"
+    loading="eager" 
+/>
+            <h2><a href="#">【特大头条】告别数据库：Jamstack 架构如何让 Web 性能超越传统 CMS</a></h2>
+            <p>本文深度解析了静态网站生成器（SSG）的工作原理，并以实际案例展示了它们在加载速度和 SEO 上的巨大优势...</p>
+            <div class="byline">BY 白谣 | 架构理论</div>
+        </section>
+        
+        <div class="main-content-grid">
+
+            <section class="focus-column">
+                <h3>焦点新闻</h3>
+                <article class="article-card">
+                    <h2><a href="#">你真的需要那个 5MB 的 JS 框架吗？前端臃肿症候群分析</a></h2>
+                    <p>一项新研究显示，80% 的网站开发者错误地估计了第三方脚本对 Core Web Vitals 的影响。</p>
+                </article>
+
+                <h3>编辑推荐</h3>
+                <article class="article-card">
+                    <p class="byline">白谣评论</p>
+                    <h2><a href="#">【评论】静态模板并非银弹，但它是你最好的起点</a></h2>
+                </article>
+            </section>
+
+            <section class="content-stream">
+                
+                <article class="article-card">
+                    <h2><a href="#">如何用 Tailwind CSS 快速构建高性能着陆页（附模板下载）</a></h2>
+                    <p>详细教程：从零开始使用实用工具类 CSS 框架设计一个完美的营销页面...</p>
+                    <div class="byline">技术实践 | 1小时前</div>
+                </article>
+                
+                <article class="article-card">
+                    <h2><a href="#">ZBlog 性能优化终极指南：从数据库到 CDN 的全栈调优</a></h2>
+                    <p>对于无法完全静态化的网站，如何最大限度地发挥 ZBlog 的性能潜力？</p>
+                    <div class="byline">CMS 优化 | 2小时前</div>
+                </article>
+                
+                </section>
+
+            <aside class="utility-column">
+                
+                <div class="sidebar-module">
+                    <h3>&gt; 免费订阅《白谣节点》</h3>
+                    <p>立即获取第一期完整 PDF 杂志和我们的高性能 Starter 模板。</p>
+                  <form action="/subscribe" method="POST">
+    <input type="email" name="email" placeholder="输入邮箱" class="subscribe-input" required>
+    <button type="submit" class="subscribe-button">订阅</button>
+</form>
+                </div>
+
+                <div class="sidebar-module">
+                    <h3>热门话题榜</h3>
+                    <ul>
+                        <li><a href="#">#Jamstack</a></li>
+                        <li><a href="#">#TTFB优化</a></li>
+                        <li><a href="#">#CoreWebVitals</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+        </div> 
+        </main>
+
+  <footer id="main-footer">
+    <div class="container footer-grid">
+        <div class="footer-module footer-brand">
+            <h4 class="logo-footer">《白谣节点》</h4>
+            <p><strong>追求极致性能。</strong>我们提供高性能静态 HTML 模板与前端架构深度指南，帮助您构建下一代 Web 产品。</p>
+            <p class="copyright">&copy; 2024 白谣节点. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-module footer-nav">
+            <h4>快速导航</h4>
+            <ul>
+                <li><a href="/node/">最新杂志 (内容中心)</a></li>
+                <li><a href="/store/">高性能模板商店</a></li>
+                <li><a href="/about/">关于白谣节点</a></li>
+                <li><a href="/contact/">联系我们</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-module footer-legal">
+            <h4>法律与支持</h4>
+            <ul>
+                <li><a href="/terms/">服务条款 (Terms)</a></li>
+                <li><a href="/privacy/">隐私政策 (Privacy)</a></li>
+                <li><a href="/faq/">常见问题 (FAQ)</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
+
+
+
